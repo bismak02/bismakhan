@@ -1,4 +1,6 @@
-/* Reset some default styles */
+
+/* ALL PAGES */
+
 body, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -52,40 +54,6 @@ h3 {
 p {
     margin-bottom: 10px;
 }
-#contact {
-    text-align: center;
-}
-
-.contact-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.contact-button:hover {
-    background-color: #555;
-}
-
-.contact-button2 {
-    display: inline-block;
-    padding: 40px 40px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-	font-size: 1.0em
-}
-
-.contact-button2:hover {
-    background-color: #555;
-}
 
 header {
     background-color: #333;
@@ -120,7 +88,8 @@ nav a {
 }
 
 section {
-    margin-bottom: 30px;
+	  margin-top: 30px;
+    margin-bottom: 40px;
     transition: transform 0.3s ease, background-color 0.3s ease; /* Add a smooth transition effect for background color */
 }
 
@@ -128,6 +97,38 @@ section:hover {
     transform: translateY(-5px); /* Move the section up by 5 pixels on hover */
     background-color: #f5f5f5; /* Change the background color to light gray on hover */
 }
+footer {
+     background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; /* Add padding to top and bottom of the footer */
+}
+
+#contact {
+    text-align: center;
+}
+
+
+
+/* WELCOME PAGE  */
+
+.contact-main {
+    display: inline-block;
+    padding: 40px 40px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+	font-size: 1.0em;
+	  margin-bottom: 50px; 
+}
+
+.contact-main:hover {
+    background-color: #555;
+}
+
 #welcome-section {
     text-align: center; /* Center text within the welcome section */
 	margin-top: 20px;
@@ -139,6 +140,26 @@ section:hover {
     max-width: 100%; /* Ensure the image doesn't exceed its container's width */
     height: auto; /* Preserve the image's aspect ratio */
 }
+
+
+
+
+/* RESUME PAGE */
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #555;
+}
 .download-button {
     display: inline-block;
       padding: 12px 24px; /* Increase padding to make the button slightly bigger */
@@ -149,13 +170,14 @@ section:hover {
     font-weight: bold;
     transition: background-color 0.3s ease;
 	font-size: 1.2em; /* Increase font size */
-    margin-bottom: 20px; /* Add spacing below the button */
+    margin-bottom: 10px; /* Add spacing below the button */
 	
 }
 
 .download-button:hover {
     background-color: #555;
 }
+
 #download-resume {
     text-align: center; /* Center text within the download section */
 }
