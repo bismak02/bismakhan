@@ -16,7 +16,9 @@ body {
 
 main {
     background-color: #fff;
-    padding: 30px 40px;
+	max-width: 1700px; /* Reduce the maximum width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 30px 50px; /* Reduce the padding around the content */
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -63,6 +65,7 @@ header {
     width: 100%;
     text-align: right;
 	border-radius: 10px;
+	
 }
 
 header h1 {
