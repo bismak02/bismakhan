@@ -14,7 +14,6 @@ body {
     margin: 20px;
 }
 
-
 main {
     background-color: #fff;
     padding: 20px;
@@ -32,10 +31,11 @@ h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
+
 h1 {
-   font-size: 2.5em; /* Increase the font size of the header text */
+    font-size: 2.5em;
     margin: 0;
-    text-align: center; /* Center the text horizontally */
+    text-align: center;
 }
 
 ul {
@@ -55,18 +55,19 @@ p {
     margin-bottom: 10px;
 }
 
+/* Header Styles */
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 20px; /* Increase vertical padding */
+    padding: 20px 0;
     width: 100%;
     text-align: right;
 }
 
 header h1 {
-   font-size: 2.5em; /* Increase the font size of the header text */
+    font-size: 2.5em;
     margin: 0;
-    text-align: center; /* Center the text horizontally */
+    text-align: center;
 }
 
 nav ul {
@@ -88,20 +89,22 @@ nav a {
 }
 
 section {
-	  margin-top: 30px;
+    margin-top: 30px;
     margin-bottom: 40px;
-    transition: transform 0.3s ease, background-color 0.3s ease; /* Add a smooth transition effect for background color */
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 section:hover {
-    transform: translateY(-5px); /* Move the section up by 5 pixels on hover */
-    background-color: #f5f5f5; /* Change the background color to light gray on hover */
+    transform: translateY(-5px);
+    background-color: #f5f5f5;
 }
+
+/* Footer Styles */
 footer {
-     background-color: #333;
+    background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0; /* Add padding to top and bottom of the footer */
+    padding: 10px 0;
 }
 
 #contact {
@@ -110,8 +113,7 @@ footer {
 
 
 
-/* WELCOME PAGE  */
-
+/* Welcome Page Styles */
 .contact-main {
     display: inline-block;
     padding: 40px 40px;
@@ -121,8 +123,8 @@ footer {
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease;
-	font-size: 1.0em;
-	  margin-bottom: 50px; 
+    font-size: 1.0em;
+    margin-bottom: 50px;
 }
 
 .contact-main:hover {
@@ -130,22 +132,21 @@ footer {
 }
 
 #welcome-section {
-    text-align: center; /* Center text within the welcome section */
-	margin-top: 20px;
-	 margin-bottom: 100px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
 }
+
 #welcome-image {
-    display: block; /* Ensure it's a block-level element */
-    margin: 0 auto; /* Center the image horizontally */
-    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
-    height: auto; /* Preserve the image's aspect ratio */
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 
 
-
-/* RESUME PAGE */
-
+/* Resume Page Styles */
 .contact-button {
     display: inline-block;
     padding: 10px 20px;
@@ -160,18 +161,18 @@ footer {
 .contact-button:hover {
     background-color: #555;
 }
+
 .download-button {
     display: inline-block;
-      padding: 12px 24px; /* Increase padding to make the button slightly bigger */
+    padding: 12px 24px;
     background-color: #333;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease;
-	font-size: 1.2em; /* Increase font size */
-    margin-bottom: 10px; /* Add spacing below the button */
-	
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 .download-button:hover {
@@ -179,12 +180,12 @@ footer {
 }
 
 #download-resume {
-    text-align: center; /* Center text within the download section */
+    text-align: center;
 }
 
 #skills ul {
-    list-style-type: square; /* Use square bullets */
-    margin-left: 20px; /* Add left margin to align with the text */
+    list-style-type: square;
+    margin-left: 20px;
 }
 
 #skills ul li {
