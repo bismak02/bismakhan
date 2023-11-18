@@ -1,4 +1,4 @@
-# Bismakhan's Resume Website
+# BismaKhan's Resume Website
 
 Welcome to my resume website! This website showcases my professional experience, skills, and education. You can view my resume, learn more about my background, and find ways to get in touch with me.
 
