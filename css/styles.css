@@ -195,6 +195,11 @@ body {
   margin: 0 auto;
   margin-top: 10px;
 }
+@media only screen and (max-width: 767px) {
+  .title-of-section {
+    font-size: 32px; /* Adjust the font size as needed */
+  }
+}
 p {
   font-size: 14px;
   line-height: 22px;
