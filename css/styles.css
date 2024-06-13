@@ -1042,6 +1042,10 @@ textarea.textarea2 {
     margin-left: 0px;
   }
 }
+.smaller-image {
+  width: 75%; 
+  height: auto; 
+}
 p {
   font-weight: normal;
 }
