@@ -117,5 +117,7 @@ $('.modal-bg').on('click', function () {
 //End - Document Ready
 });
 
+
+
 //End - Use Strict mode
 })(jQuery);
