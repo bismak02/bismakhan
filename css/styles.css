@@ -1167,38 +1167,6 @@ p {
   opacity: 0.3!important;
 }
 /* ==========================================================
-! SECTION: Pagination 
-========================================================== */
-.section-pagination {
-  font-size: 12px;
-  padding-bottom: 40px;
-  padding-top: 20px;
-  margin-top: 30px;
-  border-top: 1px solid #e2e2e2;
-}
-.section-pagination a {
-  background: #eee;
-  border: 0;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  min-width: 0;
-}
-@media (min-width: 768px) {
-  .section-pagination a {
-    padding: 10px;
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-}
-.section-pagination a:after {
-  width: 200%;
-}
-.section-pagination .pagination-numbers a {
-  border: 0;
-  background: #eee;
-}
-/* ==========================================================
 ! Section: Skills
 ========================================================== */
 .skills-list {
