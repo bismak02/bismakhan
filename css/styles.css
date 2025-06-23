@@ -307,6 +307,7 @@ textarea.textarea2 {
   width: 100%;
   height: 50px;
 }
+
 /* ==========================================================
 ! 03. Page loader
 ========================================================== */
@@ -1198,86 +1199,6 @@ p {
   background: #eee;
 }
 /* ==========================================================
-! Section: Testimonials
-========================================================== */
-.testimonials {
-  text-align: center;
-  font-size: 18px;
-}
-.testimonial-item {
-  width: 100%;
-  margin: 0 auto;
-}
-@media (min-width: 768px) {
-  .testimonial-item {
-    padding: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
-.quote-text {
-  font-style: italic;
-}
-.testimonial-credits {
-  margin-top: 30px;
-}
-.testimonial-author {
-  font-size: 15px;
-  margin-bottom: 0;
-  margin-top: 15px;
-  font-weight: bold;
-}
-.testimonial-content {
-  background: #031634;
-  color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  width: 100%;
-  position: relative;
-}
-.testimonial-content p {
-  font-size: 13px;
-  line-height: 16px;
-}
-.testimonial-content:after {
-  content: '';
-  display: block;
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  left: 50%;
-  bottom: -5px;
-  margin-left: -5px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  z-index: 888;
-  background: #031634;
-}
-.testimonial-picture {
-  width: 110px;
-  height: 110px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-.testimonial-picture img {
-  width: 100%;
-  border-radius: 100%;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border: 6px solid #ddd;
-}
-.testimonial-firm {
-  font-size: 10px;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  font-style: italic;
-  font-weight: lighter;
-}
-/* ==========================================================
 ! Section: Skills
 ========================================================== */
 .skills-list {
@@ -1319,107 +1240,102 @@ p {
 .progress-bar-3 {
   background: #da222b;
 }
-/* ==========================================================
-! Section: Resume
+/* ========================================================== 
+   Section: Resume 
 ========================================================== */
+
 .resume-box {
-  margin-bottom: 15px;
-  padding: 20px;
-  border: 1px solid #031634;
-  border-radius: 6px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  position: relative;
-  text-align: center;
-  padding-top: 40px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 1px solid #031634;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+
 .resume-box:hover {
-  background: #09afad;
-  border: 1px solid transparent;
-  color: #ffffff;
+    background: #09afad;
+    border: 1px solid transparent;
+    color: #ffffff;
 }
+
 .resume-box:hover .resume-item-title1,
 .resume-box:hover .resume-item-title2 {
-  color: #ffffff;
+    color: #ffffff;
 }
+
 .resume-item-ico {
-  text-align: center;
-  font-size: 15px;
-  color: #ffffff;
-  background: #09afad;
-  border-radius: 100%;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  margin: 0 auto;
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  margin-left: -25px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    background: #09afad;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    margin-left: -25px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+
 .resume-item-title1 {
-  font-weight: bold;
-  font-size: 24px;
-  margin-top: 0;
-  margin-bottom: 10px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+
 .resume-item-title2 {
-  font-size: 15px;
-  font-weight: normal;
-  font-style: italic;
-  margin-top: 0;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
-/* ==========================================================
-! Section: Clients
-========================================================== */
-.clients-carousel-item img {
-  max-width: 100%;
-  opacity: 0.8;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+
+/* Center the last two boxes */
+#experience .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.clients-carousel-item img:hover {
-  opacity: 1;
+
+#experience .col-sm-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
 }
-@media (min-width: 768px) {
-  .clients-grid .clients-grid-item {
-    display: block;
-    width: 25%;
-    float: left;
-    border-top: 1px dotted #333;
-    border-right: 1px dotted #333;
-    padding: 10px;
-  }
-  .clients-grid .clients-grid-item:nth-child(4n+0) {
-    border-right: 0;
-  }
-  .clients-grid .clients-grid-item:nth-child(n+1):nth-child(-n+4) {
-    border-top: 0;
-  }
-  .clients-grid .clients-grid-item img {
-    max-width: 100%;
-    opacity: 0.8;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
-  .clients-grid .clients-grid-item img:hover {
-    opacity: 1;
-  }
+
+/* On smaller screens, maintain responsive behavior */
+@media (max-width: 767px) {
+    #experience .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #experience .col-sm-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
 /* ==========================================================
 ! Section: Contact
 ========================================================== */
@@ -1447,27 +1363,6 @@ p {
 }
 .contact-box .title4 {
   margin-top: 0;
-}
-/* ==========================================================
-! Section: Accordion
-========================================================== */
-.accordion .panel-heading {
-  padding: 0;
-  background: #031634;
-  color: #ffffff;
-}
-.accordion .panel-title a {
-  display: block;
-  padding: 10px 15px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.accordion .panel-title a:hover {
-  text-decoration: none;
-  transform: translateX(6px);
-  -moz-transform: translateX(6px);
-  -webkit-transform: translateX(6px);
 }
 /* ==========================================================
 ! Section: Gallery
@@ -1553,112 +1448,3 @@ p {
     margin-bottom: 0;
   }
 }
-/* ==========================================================
-! Section: Map
-========================================================== */
-.map {
-  padding-bottom: 0;
-  margin-bottom: 20px;
-}
-@media (min-width: 768px) {
-  .map {
-    margin-bottom: 0;
-  }
-}
-.map iframe {
-  width: 100% !important;
-  margin-bottom: -5px !important;
-  pointer-events: none;
-  border: 0 !important;
-}
-/* ==========================================================
-! Modals
-========================================================== */
-.modal-wrap {
-  display: none;
-}
-.modal-bg {
-  background: #333;
-  opacity: 0.9;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-}
-.modal-content {
-  background: #fafafa;
-  font-size: 18px;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  margin-left: -125px;
-  width: 250px;
-  z-index: 9999;
-  padding: 10px 20px;
-}
-.modal-content .modal-title {
-  color: #031634;
-  font-size: 22px;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-.modal-content p {
-  font-size: 14px;
-  margin-bottom: 0;
-}
-#contactError .modal-title {
-  color: #fff;
-}
-/* ==========================================================
-! Owl Carousel
-========================================================== */
-.owl-carousel {
-  cursor: -webkit-grab;
-  cursor: -moz-grab;
-}
-.owl-carousel * {
-  will-change: transform;
-}
-.owl-carousel:focus {
-  cursor: -webkit-grab;
-  cursor: -moz-grab;
-}
-.owl-carousel:active {
-  cursor: -webkit-grab;
-  cursor: -moz-grab;
-}
-.owl-carousel:hover {
-  cursor: -webkit-grab;
-  cursor: -moz-grab;
-}
-.owl-controls-wrapper2:hover .owl-controls {
-  opacity: 1;
-}
-.owl-controls-wrapper2 .owl-controls {
-  opacity: 0.4;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  width: 100%;
-  position: absolute;
-  top: auto;
-  bottom: 0;
-  left: 0;
-  padding: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background: rgba(0, 0, 0, 0.4);
-  color: #ffffff !important;
-}
-.owl-controls-wrapper2 .owl-controls a {
-  color: #ffffff !important;
-}
-.owl-controls-wrapper2 .owl-controls .owl-page.active {
-  background: transparent;
-}
-/* ==========================================================
-! CROSSBROWSER SOLUTIONS
-========================================================== */
