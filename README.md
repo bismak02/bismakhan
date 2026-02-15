@@ -32,12 +32,5 @@ Welcome to my resume website! This platform serves as a comprehensive showcase o
 
 I am a passionate professional dedicated to continuous growth and learning. With a strong background in IT, I strive to contribute effectively to any team or project I'm a part of. This website serves as a digital representation of my skills, experiences, and aspirations.
 
-## Get in Touch
-
-Feel free to reach out to me for any inquiries or opportunities. You can find my contact information below:
-
-- **Email**: bismak0220@gmail.com
-- **Phone**: 773-972-3576
-- **LinkedIn**:https://www.linkedin.com/in/bkhan02
   
 Thank you for visiting my resume website! I look forward to connecting with you.
